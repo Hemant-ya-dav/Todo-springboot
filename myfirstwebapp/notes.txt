@@ -1,0 +1,28 @@
+
+String builder 
+JSP- java server page 
+
+these two work as a view resolver which add prefix and suffix to get the jsp file 
+spring.mvc.view.prefix=/WEB-INF/jsp/   
+spring.mvc.view.suffix=.jsp
+
+/src/main/resources/META-INF/resources/WEB-INF/jsp/sayHello.jsp
+
+/Say-hello-jsp => SayHelloController - sayHelloJsp method => sayHello
+
+Login JSP 
+/login => com.in28minutes.springboot.myfirstwebapp.login.LoginController
+ => login.jsp
+
+login controller - logger level , and we can make a package at debug level
+and set logger to know the debug level if we want we can put at info or warn level also .
+
+Default : Logback with SLF4j
+
+
+
+
+
+/META-INF/resources/webjars/bootstrap/5.3.1/css/bootstrap.min.css
+/META-INF/resources/webjars/bootstrap/5.3.1/js/bootstrap.min.js
+/META-INF/resources/webjars/jquery/3.6.0/jquery.min.js
